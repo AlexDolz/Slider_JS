@@ -39,7 +39,6 @@ rootDiv.append(frame);
 
 function setActiveDots(index) {
   const dots = document.querySelectorAll('.rounds button');
-  console.log(dots);
   dots.forEach(dots => dots.classList.remove('active'));
   dots[index].classList.add('active');
 }
